@@ -1,8 +1,41 @@
 # Notes
 
+## Project description:
+Developed a full-stack web application that allows users to create and manage sticky notes, and collaborate with other users. It is made with Node.Js, EJS & MongoDB.
+
+## Features:
+
+# Frontend:
+• Login functionality using username and password.
+
+• Admins can invite new users via an invite link.
+
+• Users can create, edit, and delete their notes.
+
+• User's homepage shows all their notes as well as public notes of other users.
+
+• Users can only see notes of other users which are marked as "public".
+
+• Admin have the ability to view, add, edit, and delete all notes.
+
+• Users can search any note based on title or description.
+
+• Created a user-friendly and responsive user interface.
+
+# Backend:
+• Developed a RESTful API to handle user registration and authentication.
+
+• Implemented API endpoints for creating, updating, and deleting notes.
+
+• The notes have a privacy setting (public or private).
+
+• Admins have elevated permissions and can manage users and notes.
+
+• Implemented user roles and role based access control (RBAC).
+
 ## YouTube Demo link:
 https://youtu.be/K0CAxCc0Q-0
-
+ 
 ## You need:
 - Database (MongoDB)
 - Google Console Account to create the API Auth Key's
