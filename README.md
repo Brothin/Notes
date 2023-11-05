@@ -55,7 +55,7 @@ https://github.com/Brothin/Notes.git
 cd Notes
 ```
 
-## You need:
+## You need
 - Database (MongoDB).
 - Google Console Account to create the API Auth Key's.
 
