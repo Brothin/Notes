@@ -1,0 +1,51 @@
+<div class="container-fluid">
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4"
+  >
+    <a
+      href="/admin/dashboard"
+      class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-primary text-decoration-none fw-bold fs-2"
+    >
+      Notes
+    </a>
+
+    <form
+      class="nav col-12 col-md-auto flex-fill mb-2 justify-content-center mb-md-0"
+      role="search"
+      method="POST"
+      action="/admin/dashboard/search"
+    >
+      <input
+        type="search"
+        name="searchTerm"
+        class="form-control border-primary"
+        placeholder="Search..."
+        aria-label="Search"
+      />
+    </form>
+
+    <div class="col-md-3 text-end">
+      <a href="/logout" type="button" class="btn btn-outline-primary">Logout</a>
+      <button class="btn btn-outline-primary" id="copyButton">Invite</button>
+      <script>
+        const copyButton = document.getElementById("copyButton");
+
+        copyButton.addEventListener("click", () => {
+          const input = document.createElement("input");
+
+          input.value = window.location.origin;
+
+          document.body.appendChild(input);
+
+          input.select();
+
+          document.execCommand("copy");
+
+          document.body.removeChild(input);
+
+          alert("Link copied to clipboard: " + input.value);
+        });
+      </script>
+    </div>
+  </header>
+</div>
