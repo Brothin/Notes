@@ -3,9 +3,9 @@
 ## Project description:
 Developed a full-stack web application that allows users to create and manage sticky notes, and collaborate with other users. It is made with Node.Js, EJS & MongoDB.
 
-## Features:
+# Features:
 
-# Frontend:
+## Frontend:
 • Login functionality using username and password.
 
 • Admins can invite new users via an invite link.
@@ -22,7 +22,7 @@ Developed a full-stack web application that allows users to create and manage st
 
 • Created a user-friendly and responsive user interface.
 
-# Backend:
+## Backend:
 • Developed a RESTful API to handle user registration and authentication.
 
 • Implemented API endpoints for creating, updating, and deleting notes.
@@ -33,8 +33,10 @@ Developed a full-stack web application that allows users to create and manage st
 
 • Implemented user roles and role based access control (RBAC).
 
-## YouTube Demo link:
+# Project demo:
 https://youtu.be/K0CAxCc0Q-0
+
+# Instructions to run:
  
 ## You need:
 - Database (MongoDB)
