@@ -35,10 +35,14 @@ Developed a full-stack web application that allows users to create and manage st
 https://youtu.be/K0CAxCc0Q-0
 
 # Admin credentials:
-email: admin@gmail.com
-
-password: adminpass
-
+email: 
+```
+admin@gmail.com
+```
+password: 
+```
+adminpass
+```
 You can change them from views/admin/adminLogin.ejs
 
 # Getting started
@@ -50,10 +54,10 @@ https://github.com/Brothin/Notes.git
 ```
 cd Notes
 ```
- 
+
 ## You need:
-- Database (MongoDB)
-- Google Console Account to create the API Auth Key's
+- Database (MongoDB).
+- Google Console Account to create the API Auth Key's.
 
 ## Create your MongoDB account and database/cluster
 • Create your own MongoDB account by visiting the MongoDB website and signing up for a new account.
